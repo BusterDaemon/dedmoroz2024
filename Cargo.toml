@@ -1,0 +1,9 @@
+[package]
+name = "dedmoroz2024"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "*"
+radians = "*"
+serde = { version = "1.0", features = ["derive"] }
